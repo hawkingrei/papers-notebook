@@ -50,7 +50,7 @@
  
 
  
- 
+ * [Large-scale cluster management at Google with Borg](http://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43438.pdf)
 
 
 
