@@ -49,9 +49,10 @@
 同时F2FS引入了Multi-head logging，F2FS利用flash存储的并行性,可以同时操作多个log，来提高效率。F2FS还通过roll-forward recovery来加速fsync。
  
 
- 
- * [Large-scale cluster management at Google with Borg](http://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43438.pdf)
 
+* [Large-scale cluster management at Google with Borg](http://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43438.pdf)
+* [The Bw-Tree: A B-tree for New Hardware Platforms](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bw-tree-icde2013-final.pdf)
+* [BzTree: A High-Performance Latch-free Range Index for Non-Volatile Memory](https://www.cs.cmu.edu/~jarulraj/papers/2018.bztree.vldb.pdf) 
 
 
 
