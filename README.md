@@ -1,7 +1,7 @@
 # 论文笔记
 
 这个repo记录我平时阅读的paper并记录下笔记，希望自己不只是一个会拼凑代码的程序员。
-![a](https://13.228.71.41:8080/v1/badge.svg?right=saga&left=pass&color=74C614)
+![a](http://13.228.71.41/v1/badge.svg?right=saga&left=pass&color=74C614)
 
 ## 目录(TOC)
 
