@@ -5,8 +5,8 @@
 
 ## 目录(TOC)
 
-* [论文笔记](#论文笔记)
-   * [目录(TOC)](#目录toc)
+* [论文笔记](#%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0)
+   * [目录(TOC)](#%E7%9B%AE%E5%BD%95toc)
    * [分布式(Distributed System)](#分布式distributed-system)
 			
 		* [存储(Storage)](#存储storage)
@@ -14,11 +14,11 @@
 		* [一致性(Consensus)](#一致性Consensus)
 			* [raft](#raft)
           * [Zookeeper](#Zookeeper)
-
    * [系统(System)](#系统system)
       
        * [文件系统(File System)](#文件系统file-system)
           * [F2FS](#f2fs)
+          * [LFS](#LFS)
 
                  
 #### Spanner
@@ -38,7 +38,7 @@
 
 
 
-### F2FS
+#### F2FS
  
 [F2FS: A New File System for Flash Storage](https://www.usenix.org/system/files/conference/fast15/fast15-paper-lee.pdf)
 
@@ -48,7 +48,9 @@
 
 同时F2FS引入了Multi-head logging，F2FS利用flash存储的并行性,可以同时操作多个log，来提高效率。F2FS还通过roll-forward recovery来加速fsync。
  
+#### LFS
 
+[The Design and Implementation of a Log-Structured File System](https://people.eecs.berkeley.edu/~brewer/cs262/LFS.pdf)
 
 * [Large-scale cluster management at Google with Borg](http://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43438.pdf)
 * [The Bw-Tree: A B-tree for New Hardware Platforms](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bw-tree-icde2013-final.pdf)
