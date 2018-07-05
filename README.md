@@ -7,6 +7,7 @@
 
 * [论文笔记](#%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0)
    * [目录(TOC)](#%E7%9B%AE%E5%BD%95toc)
+   * [数据结构]
    * [分布式(Distributed System)](#分布式distributed-system)
 			
 		* [存储(Storage)](#存储storage)
@@ -58,3 +59,7 @@
 * [High Throughput Compression of Double-Precision Floating-Point Data](http://cs.txstate.edu/%7Eburtscher/papers/dcc07a.pdf)
 
 
+#### 数据结构
+
+* [The Adaptive Radix Tree:ARTful Indexing for Main-Memory Databases](https://db.in.tum.de/~leis/papers/ART.pdf)
+    * [The ART of Practical Synchronization](https://db.in.tum.de/~leis/papers/artsync.pdf)
