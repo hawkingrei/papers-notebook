@@ -54,5 +54,5 @@
 * [The Bw-Tree: A B-tree for New Hardware Platforms](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bw-tree-icde2013-final.pdf)
 * [BzTree: A High-Performance Latch-free Range Index for Non-Volatile Memory](https://www.cs.cmu.edu/~jarulraj/papers/2018.bztree.vldb.pdf) 
 
-
-
+* [Orca: A Modular Query Optimizer Architecture for Big Data](https://15721.courses.cs.cmu.edu/spring2016/papers/p337-soliman.pdf)
+* [Filter Before You Parse:Faster Analytics on Raw Data with Sparser](http://www.vldb.org/pvldb/vol11/p1576-palkar.pdf)
