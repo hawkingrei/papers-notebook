@@ -66,5 +66,6 @@
 * [The ART of Practical Synchronization](https://db.in.tum.de/~leis/papers/artsync.pdf)
 
 
+
 * [Orca: A Modular Query Optimizer Architecture for Big Data](https://15721.courses.cs.cmu.edu/spring2016/papers/p337-soliman.pdf)
 * [Filter Before You Parse:Faster Analytics on Raw Data with Sparser](http://www.vldb.org/pvldb/vol11/p1576-palkar.pdf)
