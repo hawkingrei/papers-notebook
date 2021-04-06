@@ -5,8 +5,9 @@
 
 ## 目录(TOC)
 
-* [论文笔记](#论文笔记)
-   * [目录(TOC)](#目录toc)
+* [论文笔记](#%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0)
+   * [目录(TOC)](#%E7%9B%AE%E5%BD%95toc)
+   * [数据结构]
    * [分布式(Distributed System)](#分布式distributed-system)
 			
 		* [存储(Storage)](#存储storage)
@@ -14,11 +15,11 @@
 		* [一致性(Consensus)](#一致性Consensus)
 			* [raft](#raft)
           * [Zookeeper](#Zookeeper)
-
    * [系统(System)](#系统system)
       
        * [文件系统(File System)](#文件系统file-system)
           * [F2FS](#f2fs)
+          * [LFS](#LFS)
 
                  
 #### Spanner
@@ -32,13 +33,15 @@
 * [Finding a needle in Haystack: Facebook’s photo storage](https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf)
 * [In Search of an Understandable Consensus Algorithm (Extended Version)](https://pdos.csail.mit.edu/6.824/papers/raft-extended.pdf)
 * [ZooKeeper: Wait-free coordination for Internet-scale systems](https://pdos.csail.mit.edu/6.824/papers/zookeeper.pdf)
+* [PacificA: Replication in Log-Based Distributed Storage Systems](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/02/tr-2008-25.pdf)
+
 #### Time Series Database
 
 * [Gorilla: A Fast, Scalable, In-Memory Time Series Database](http://www.vldb.org/pvldb/vol8/p1816-teller.pdf)
 
 
 
-### F2FS
+#### F2FS
  
 [F2FS: A New File System for Flash Storage](https://www.usenix.org/system/files/conference/fast15/fast15-paper-lee.pdf)
 
@@ -48,11 +51,20 @@
 
 同时F2FS引入了Multi-head logging，F2FS利用flash存储的并行性,可以同时操作多个log，来提高效率。F2FS还通过roll-forward recovery来加速fsync。
  
+#### LFS
 
+[The Design and Implementation of a Log-Structured File System](https://people.eecs.berkeley.edu/~brewer/cs262/LFS.pdf)
 
 * [Large-scale cluster management at Google with Borg](http://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43438.pdf)
 * [The Bw-Tree: A B-tree for New Hardware Platforms](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bw-tree-icde2013-final.pdf)
 * [BzTree: A High-Performance Latch-free Range Index for Non-Volatile Memory](https://www.cs.cmu.edu/~jarulraj/papers/2018.bztree.vldb.pdf) 
+* [High Throughput Compression of Double-Precision Floating-Point Data](http://cs.txstate.edu/%7Eburtscher/papers/dcc07a.pdf)
+
+#### 数据结构
+
+* [The Adaptive Radix Tree:ARTful Indexing for Main-Memory Databases](https://db.in.tum.de/~leis/papers/ART.pdf)
+* [The ART of Practical Synchronization](https://db.in.tum.de/~leis/papers/artsync.pdf)
+
 
 * [Orca: A Modular Query Optimizer Architecture for Big Data](https://15721.courses.cs.cmu.edu/spring2016/papers/p337-soliman.pdf)
 * [Filter Before You Parse:Faster Analytics on Raw Data with Sparser](http://www.vldb.org/pvldb/vol11/p1576-palkar.pdf)
